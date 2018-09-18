@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "name": "rent-house-crawler",
+  "description": "A Fast rent-house-crawler, it gets the houses information from 58.com",
+  "keywords": [
+    "58",
+    "58-house",
+    "rent-house",
+    "58-rent-house",
+    "node-rent-house",
+    "rent-house-crawler"
+  ],
+  "main": "index.js",
+  "author": "Vuchan <givingwu@gmail.com> (vuchan.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vuchan/rent-house-crawler"
+  },
+  "bugs": {
+    "url": "http://github.com/Vuchan/rent-house-crawler/issues"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.87.0"
+  }
+}
