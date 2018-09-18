@@ -7,6 +7,8 @@
 # Features
 + 快捷租房查询，根据条件快速筛选出符合条件的房子，并记录。
 + 根据你关心的条件获得匹配的房子链接，还可以自定义`filters`函数用你的规则过滤。
++ [自定义配置](./config/index.js) 条件非常简单。
++ 我个人认为它是个扩展性很强的程序，王婆卖瓜😊🎆🎁.
 
 
 # Screenshots
@@ -24,7 +26,7 @@ npm install
 
 ![run screenshot](./screenshots/run_screenshop.gif)
 
-+ 符合[filter](./filters/filter58.js)条件的房子会记录保存
++ 符合[filter](./filters/filter58.js)条件的房子会记录保存在[records/filter_records.log]('./records/filter_records.log)中
 
 ![after filter out ](./screenshots/filter_results.jpg)
 
